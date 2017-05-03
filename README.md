@@ -26,4 +26,4 @@ If the second one is forced, the import works as expected.
 }
 ```
 
-I am trying to find a way to tell webpack where to find 'ApiClient', 'model/ActivityTaxonomy' and the other modules by using the default import (AMD), because 
+I am trying to find a way to tell webpack where to find 'ApiClient', 'model/ActivityTaxonomy' and the other modules by using the default import (AMD)
