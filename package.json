@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.4",
-    "musement_api": "git+ssh://git@stash.musement.com:7999/mfe/api-client.git#32633e0f5ea"
+    "musement_api": "git+https://github.com/lsimone/musement_api.git#32633e0f5ea40109b95214a5a18eefcccd0fcd75"
+  },
+  "devDependencies": {
+    "webpack": "^2.4.1"
   }
 }
