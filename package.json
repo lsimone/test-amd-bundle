@@ -1,0 +1,15 @@
+{
+  "name": "test-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "musement_api": "git+ssh://git@stash.musement.com:7999/mfe/api-client.git#32633e0f5ea"
+  }
+}
